@@ -15,14 +15,14 @@ function ProductDetails() {
     
     const dispatch = useDispatch();
 
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useState(1);
 
     const increment = () => {
         setCount(count+1);
     }
 
     const decrement = () => {
-        (count > 0 ? setCount(count-1) : setCount(count));
+        (count > 1 ? setCount(count-1) : setCount(count));
     }
 
     const addBasket = ()=>{
