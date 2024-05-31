@@ -1,0 +1,44 @@
+.image{
+    width: 180px;
+    height: 240px;
+}
+
+.card{
+    width: 200px;
+    height: 410px;
+    box-shadow: 1px 4px 3px lightgrey;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.card:hover{
+    box-shadow: 1px 4px 3px rgb(240, 128, 128);
+    transition: all 0.3s;
+}
+
+.title-card{
+    text-align: center;
+    font-family: arial;
+    height: 50px;
+    margin: 20px;
+}
+
+.price-card{
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 20px;
+}
+
+.button-card{
+    text-align: center;
+    border: none;
+    padding: 8px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: lightsalmon;
+}
+
+.button-card:hover{
+    cursor: pointer;
+    background-color: rgb(252, 134, 87);
+}

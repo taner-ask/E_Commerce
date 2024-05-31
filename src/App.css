@@ -1,0 +1,82 @@
+.body{
+    padding: 0;
+    margin: 0;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#root{
+    height: 100vh;
+}
+
+.drawer-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid lightsalmon;
+    border-radius: 20px;
+    margin: 2px;
+
+}
+
+.drawer-image{
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.drawer-title{
+    font-family: arial;
+    margin-right: 5px;
+    margin-top: 10px;
+    width: 320px;
+    height: 50px;
+}
+
+.drawer-price{
+    font-family: arial;
+    margin-right: 10px;
+    width: 80px;
+    font-weight: bold;
+}
+
+.drawer-button{
+    font-family: arial;
+    width: 50px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: lightsalmon;
+}
+
+.drawer-button:hover{
+    cursor: pointer;
+    background-color: rgb(252, 134, 87);
+}
+
+.drawer-totalAmount{
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: rgb(252, 134, 87);
+}

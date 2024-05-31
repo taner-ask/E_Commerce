@@ -1,0 +1,59 @@
+.productDetails-div{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.productDetails-image{
+    margin-right: 40px;
+    width: 300px;
+    height: 500px;
+}
+
+.productDetails-title{
+    font-family: 'arial';
+}
+
+.productDetails-descripton{
+    font-family: 'arial';
+    font-size: 20px;
+}
+
+.productDetails-price{
+    font-family: 'arial';
+    font-size: 50px;
+    font-weight: bold;
+    color: coral
+}
+
+.productDetails-count-div{
+    display: flex;
+    align-items: center;
+}
+
+.productDetails-icons{
+    font-size: 30px;
+}
+
+.productDetails-count{
+    font-size: 35px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: arial;
+}
+
+.productDetails-sepeteEkle{
+    text-align: center;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: lightsalmon;
+}
+
+.productDetails-sepeteEkle:hover{
+    cursor: pointer;
+    background-color: rgb(252, 134, 87);
+}
+
