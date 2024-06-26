@@ -39,6 +39,7 @@ function App() {
                 <p className='drawer-price'>{product.price} ₺</p>
                 <button onClick={()=>{
                   dispatch(deleteFromBasket({id: product.id}));
+                  dispatch(calculateBasket());
                 }} className='drawer-button'>Sil</button>
               </div>
             )
